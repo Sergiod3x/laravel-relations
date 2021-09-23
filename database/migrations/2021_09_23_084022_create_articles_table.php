@@ -32,5 +32,6 @@ class CreateArticlesTable extends Migration
     public function down()
     {
         Schema::dropIfExists('articles');
+       // $table->dropForeign('author_id');//Da inserire a mano per tornare indietro e distruggere la foreign key;
     }
 }

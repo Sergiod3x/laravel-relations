@@ -22,9 +22,9 @@ class CreateAuthorsTable extends Migration
             $table->timestamps();
         });
     }
-
+ 
     /**
-     * Reverse the migrations.
+     * Reverse the migrations. 
      *
      * @return void
      */
